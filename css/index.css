@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Font Import */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* General Styling */
+
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+section {
+    height: 100vh;
+}
+
+i {
+    font-size: 3em;
+    padding: 3% 3% 1% 3%;
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: 2.5% 0;
+    vertical-align: center;
+}
+
+/* Title Styling */
+
+.title-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63,157,251);
+    background: linear-gradient(0deg, rgba(63,157,251,1) 0%, rgba(45,123,227,1) 100%);
+}
+
+.title-info {
+    width: 40%;
+}
+
+.title-icons {
+    width: 20%;
+    height: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.title-info h1 {
+    margin-bottom: 5%;
+}
+
+.title-info p {
+    margin:  5% 0;
+}
+
+.button {
+    background: #fff;
+    color: rgba(63,157,251);
+    width: 250px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.button:hover {
+    background-color: #E1E6ED;
+    cursor: pointer;
+}
+
+.button p {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 2.5% 0;
+}
+
+/* Icon Styling */
+
+.title-icons i {
+    box-shadow: 10px 10px 15px #4f9dfb;
+}
+
+.fa-clock {
+    background: #E3B505;
+}
+
+.fa-dollar-sign {
+    background: #95190C;
+}
+
+.fa-headphones {
+    background: #610345;
+}
+
+.fa-calendar-alt {
+    background: #107E7D;
+}
+
+.fa-moon {
+    background: #044B7F;
+}
+
+/* About Styling */
+
+.about {
+    background: #33BFFD;
+    margin-bottom: 0;
+}
+
+.about-wrap {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.about-content {
+    width: 30%;
+    text-align: center;
+    margin: 10% 0 2.5% 0;
+}
+
+.lower {
+    margin: 5% auto 0 auto;
+    width: 500px;
+}
+
+/* Footer Styling */
+
+footer {
+    font-size: 0.7em;
+    background: #33BFFD;
+    text-align: center;
+    padding-bottom: 2.5%;
+}
